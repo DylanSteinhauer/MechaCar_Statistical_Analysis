@@ -12,8 +12,12 @@ design a study to compare the MechaCar performance against vehicles from other m
 ## Summary Statistics on Suspension Coils
 ![total_summary](https://user-images.githubusercontent.com/87148177/142712436-ceebd8f8-82ac-431f-b1d4-834dbe5dcb0a.png)\
 ![lot_summary](https://user-images.githubusercontent.com/87148177/142712438-2c024cd2-cebf-44aa-b2cf-40275c75fb4a.png)\
-
+While the overall variance is under 100 psi and meets specifications, the variance for lot 3 is well over the threshold at 170.28.
 ## T-Test Results
 ![coil_T_test](https://user-images.githubusercontent.com/87148177/142712464-9f1457b8-a74e-4b2b-9902-8628f1343f3b.png)\
-![T_tests](https://user-images.githubusercontent.com/87148177/142712466-41a2d8ae-cc26-4b4e-8e29-20942e096ec0.png)
+A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.\
+![T_tests](https://user-images.githubusercontent.com/87148177/142712466-41a2d8ae-cc26-4b4e-8e29-20942e096ec0.png)\
+-A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+-
+-
 ## Study Design: Mechacar vs Competition
