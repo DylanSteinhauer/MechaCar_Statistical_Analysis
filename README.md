@@ -18,6 +18,4 @@ While the overall variance is under 100 psi and meets specifications, the varian
 A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.\
 ![T_tests](https://user-images.githubusercontent.com/87148177/142712466-41a2d8ae-cc26-4b4e-8e29-20942e096ec0.png)\
 -A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
--
--
 ## Study Design: Mechacar vs Competition
