@@ -17,5 +17,18 @@ While the overall variance is under 100 psi and meets specifications, the varian
 ![coil_T_test](https://user-images.githubusercontent.com/87148177/142712464-9f1457b8-a74e-4b2b-9902-8628f1343f3b.png)\
 A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.\
 ![T_tests](https://user-images.githubusercontent.com/87148177/142712466-41a2d8ae-cc26-4b4e-8e29-20942e096ec0.png)\
--A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+-The results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.\
+-The results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.\
+-The results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be evaluated.
 ## Study Design: Mechacar vs Competition
+### Metrics
+I would design a study that analyzes the safety rating of Mechacar vehicles against their competition. While factors such as fuel efficiency and horse power
+matter, safety is ultimately most important.
+### Null Hypothesis
+MechaCar vehicles do not have statistically significant higher safety ratings than that of vehicles from other manufacturers.
+### Alternate Hypothesis
+MechaCar vehicles do have statistically significant higher safety ratings than that of vehicles from other manufacturers.
+### Statistical Test
+I would use a two-tailed T-test to perform this analysis. When using two-tailed T-tests, regardless of the direction of the relationship you hypothesize, you are testing for the possibility of the relationship in both directions.
+### Data
+The data needed to run the statistical test is a table of MechaCar vehicles and their respective safety ratings, along with various other manufacturers and their safety ratings.
